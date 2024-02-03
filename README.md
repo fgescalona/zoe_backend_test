@@ -48,7 +48,7 @@ composer install
 ### Initialize the docker
 
 ```sh
-./vendor/bin/sail up -d
+./vendor/bin/sail up
 ```
 ### Run migrations and seeds
 
@@ -56,10 +56,16 @@ composer install
 ./vendor/bin/sail artisan migrate --seed
 ```
 
-### Access to the app
+### Test the API
 
-Visi http://localhost in the browser.
+The API can be tested using <a href="https://www.postman.com/">Postman</a> and doing a POST request to:
 
+```sh
+http://localhost/api/v1/securities/prices/1
+```
 
+### Unit tests
 
-
+```sh
+./vendor/bin/sail artisan test
+```
