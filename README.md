@@ -10,7 +10,7 @@ Backend to update the securities prices into database using a Job to synchronize
 <ul>
   <li>Docker</li>
   <li>Docker Compose</li>
-  <li>Composer/li>
+  <li>Composer</li>
 </ul>
 
 <h2>Stack</h2>
@@ -26,11 +26,11 @@ Backend to update the securities prices into database using a Job to synchronize
 ### Clone the repository
 
 ```sh
-git clone <URL_del_repositorio>
+git clone <repository_URL>
 ```
 
 ```sh
-cd nombre-del-repositorio
+cd repository-name
 ```
   
 ### Set up the environment
